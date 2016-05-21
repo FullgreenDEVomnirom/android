@@ -482,5 +482,15 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-6.0" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-6.0" />
+  
+  <!-- c1skt source -->
+  <project path="device/samsung/c1skt" name="FullgreenDEVomnirom/omnirom_device_samsung_c1skt" remote="github" />
+  <project path="device/samsung/c1skt-common" name="FullgreenDEVomnirom/omnirom_device_samsung_c1skt-common" remote="github" />
+  <project path="kernel/samsung/smdk4412" name="FullgreenDEVomnirom/android_kernel_samsung_smdk4412" remote="github" />
+  <project path="packages/apps/SamsungServiceMode" name="Haxynox/android_packages_apps_SamsungServiceMode" remote="github" />
+  <project path="hardware/samsung" name="Haxynox/android_hardware_samsung" remote="github" />
+  <project path="vendor/samsung" name="FullgreenDEVomnirom/proprietary_vendor_samsung" remote="github" />
+  <project path="external/stlport" name="Haxynox/android_external_stlport" remote="github" />
+<!-- End c1skt source -->
 
 </manifest>
